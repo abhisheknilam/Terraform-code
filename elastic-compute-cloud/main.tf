@@ -19,7 +19,7 @@ resource "aws_instance" "ap-south" {
 }
 
 resource "aws_security_group" "sgdemo" {
-  vpc_id = "vpc-0b9c67e7d3f70b87c"
+  vpc_id = "vpc-078892f2678919067"
   name   = "sgdemo"
   ingress {
     from_port   = 22
